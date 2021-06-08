@@ -1,0 +1,18 @@
+.btn-success:hover {
+    background-color: rebeccapurple;
+}
+
+canvas {
+    animation-name: clown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clown {
+    from {
+        box-shadow: 1px 1px 40px rgb(236, 123, 227);
+    }
+    to {
+        box-shadow: 1px 1px 40px rgb(57, 243, 234);
+    }
+}
